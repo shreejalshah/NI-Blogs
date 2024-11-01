@@ -1,0 +1,33 @@
+body{
+background-image: url(niblogs.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;    
+}
+
+h1{
+    position: relative;
+    color:blanchedalmond;
+    background-color:orangered  ;
+    text-align: center;
+    font-family: fantasy;
+}
+
+
+li{
+    font-weight: bolder;
+    font-size: x-large;
+    color: aqua;
+}
+
+   
+h2{
+    color: aquamarine;
+    text-align: left;
+    font-size: xx-large;
+}
+
+h3{
+    color: blanchedalmond;
+    font-size: xx-large;
+}
