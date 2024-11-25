@@ -1,8 +1,8 @@
 body{
-background-image: url(https://lh3.googleusercontent.com/p/AF1QipP05FjoaawIlwW_LeuIe4dPc-hTZ1dysNGFkCqU=s1360-w1360-h1020);
-background-repeat: repeat-y;
-background-attachment: scroll;
-background-size: 100%;  
+    background-image: url(https://i.pinimg.com/originals/85/6f/31/856f31d9f475501c7552c97dbe727319.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 h1{
@@ -10,36 +10,69 @@ h1{
   text-align: center;
   font-size: xx-large;
   font-weight: bolder;
-  background-color: black;
   
 }
 
 li{
     font-weight: bolder;
     font-size: x-large;
-    color: aqua;
+    color: green;
 }
 
    
 h2{
-    font-size: x-large;
+    font-size: xx-large;
     position: relative;
-    color:whitesmoke;
+    color: black;
     text-align: center;
     font-family: fantasy;
     font-stretch: extra-expanded;
 }
 
 h3{
-    color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(75, 28, 117);
     font-size: x-large;
+    text-align: center;
 }
 
 h4{
-    background-color: aquamarine;
+    background-color: rgb(0, 255, 170);
     font-size: x-large;
  font-weight: lighter;
  font-stretch: extra-expanded;
  text-align: center;
  text-decoration: dotted;
 }
+
+
+.agree-button {
+    background-position: center;
+    background-color: #78b7fb; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;   
+  
+    margin: 4px 2px;
+    cursor: pointer;   
+  
+  }
+ 
+  .disagree-button {
+    background-position: center;
+    background-color: #d43131; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;   
+  
+    margin: 4px 2px;
+    cursor: pointer;   
+  }
